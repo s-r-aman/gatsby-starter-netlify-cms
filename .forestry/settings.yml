@@ -7,6 +7,11 @@ sections:
 - type: document
   path: homepage
   label: Homepage
+- type: directory
+  path: post
+  label: posts
+  create: all
+  match: "*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
